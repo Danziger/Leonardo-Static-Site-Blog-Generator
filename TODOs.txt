@@ -1,0 +1,23 @@
+Change eslintrc for tslint
+
+PACKAGE JSON:
+
+https://github.com/AngularClass/angular2-webpack-starter/blob/master/package.json
+
+TODO: Almost everything shoyld be a dependency, not a dev dependency...
+
+Include node version...
+
+Make typedoc work
+
+take care of typings.json
+
+Configure vertical rythem, z-indexes, colors and measurements and that kind of stuff
+
+Change awesome typescripts loader
+
+Finish scripts
+
+CSS linting and also do that in our project!
+
+HTML linting?
