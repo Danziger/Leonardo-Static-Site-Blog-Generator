@@ -2,109 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18449ec3-4a88-4d83-a349-4487c7d2f821" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/gulp/tasks/move/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/gulp/tasks/watch/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack.prod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/about.inline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/about.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.inline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jekyll/_includes/css/about.inline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jekyll/_includes/css/index.inline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jekyll/js/about.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/footer/newfooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/globals/node/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/globals/node/typings.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/index.d.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/tasks/move/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/tasks/watch/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__build/scripts/copy-files.bash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__dist/about.inline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__dist/about.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__dist/index.inline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/css/about.inline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/css/index.inline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/about.js.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TODOs.txt" afterPath="$PROJECT_DIR$/build/gulp/tasks/check-paths/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/index.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/libs/env.js" afterPath="$PROJECT_DIR$/build/gulp/libs/env.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/libs/taskHelper.js" afterPath="$PROJECT_DIR$/build/gulp/libs/taskHelper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/loggers/buildData.js" afterPath="$PROJECT_DIR$/build/gulp/loggers/buildData.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/loggers/webpack.js" afterPath="$PROJECT_DIR$/build/gulp/loggers/webpack.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/tasks/webpack/index.js" afterPath="$PROJECT_DIR$/build/gulp/tasks/webpack/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__config/paths.js" afterPath="$PROJECT_DIR$/config/paths.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__config/webpack.dev.js" afterPath="$PROJECT_DIR$/config/webpack.dev.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/about.html" afterPath="$PROJECT_DIR$/jekyll/_pages/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/about.inline.css.map" afterPath="$PROJECT_DIR$/jekyll/_includes/css/about.inline.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/about.js" afterPath="$PROJECT_DIR$/jekyll/js/about.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.html" afterPath="$PROJECT_DIR$/jekyll/_pages/contact.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.inline.css" afterPath="$PROJECT_DIR$/jekyll/_includes/css/contact.inline.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.inline.css.map" afterPath="$PROJECT_DIR$/jekyll/_includes/css/contact.inline.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.js" afterPath="$PROJECT_DIR$/jekyll/js/contact.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.js.map" afterPath="$PROJECT_DIR$/jekyll/js/contact.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.html" afterPath="$PROJECT_DIR$/jekyll/_pages/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.inline.css.map" afterPath="$PROJECT_DIR$/jekyll/_includes/css/index.inline.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.js" afterPath="$PROJECT_DIR$/jekyll/js/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.js.map" afterPath="$PROJECT_DIR$/jekyll/js/index.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/styles.css" afterPath="$PROJECT_DIR$/jekyll/css/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/styles.css.map" afterPath="$PROJECT_DIR$/jekyll/css/styles.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/components/index.ts" afterPath="$PROJECT_DIR$/src/components/index.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/components/main.scss" afterPath="$PROJECT_DIR$/src/components/main.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/about/about.ejs" afterPath="$PROJECT_DIR$/src/pages/about/about.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/about/about.inline.scss" afterPath="$PROJECT_DIR$/src/pages/about/about.inline.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/about/about.ts" afterPath="$PROJECT_DIR$/src/pages/about/about.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/common/utils.ejs" afterPath="$PROJECT_DIR$/src/pages/common/utils.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/contact/contact.ejs" afterPath="$PROJECT_DIR$/src/pages/contact/contact.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/contact/contact.inline.scss" afterPath="$PROJECT_DIR$/src/pages/contact/contact.inline.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/contact/contact.ts" afterPath="$PROJECT_DIR$/src/pages/contact/contact.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/index/index.ejs" afterPath="$PROJECT_DIR$/src/pages/index/index.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/index/index.inline.scss" afterPath="$PROJECT_DIR$/src/pages/index/index.inline.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/index/index.ts" afterPath="$PROJECT_DIR$/src/pages/index/index.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/jekyll/_config.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/about.inline.css.map" afterPath="$PROJECT_DIR$/dist/about.inline.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/contact.inline.css" afterPath="$PROJECT_DIR$/dist/contact.inline.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/contact.inline.css.map" afterPath="$PROJECT_DIR$/dist/contact.inline.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/index.inline.css.map" afterPath="$PROJECT_DIR$/dist/index.inline.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/jekyll/_includes/footer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/jekyll/_includes/head.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/jekyll/_includes/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-github.html" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-github.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-github.svg" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-github.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.html" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-twitter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.svg" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-twitter.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/test.css" afterPath="$PROJECT_DIR$/jekyll/_includes/test.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/jekyll/_layouts/default.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/jekyll/_layouts/page.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/jekyll/_layouts/post.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_pages/about.html" afterPath="$PROJECT_DIR$/dist/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_pages/contact.html" afterPath="$PROJECT_DIR$/dist/contact.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_pages/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-06-26-welcome-to-jekyll.markdown" afterPath="$PROJECT_DIR$/jekyll/_posts/2016-06-26-welcome-to-jekyll.markdown" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="$PROJECT_DIR$/jekyll/_sass/_base.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/jekyll/_sass/_layout.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" afterPath="$PROJECT_DIR$/jekyll/_sass/_syntax-highlighting.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/jekyll/about.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/jekyll/css/main.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/dist/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/dist/styles.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/test.css" afterPath="$PROJECT_DIR$/jekyll/css/test.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/jekyll/feed.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/about.js" afterPath="$PROJECT_DIR$/dist/about.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/contact.js" afterPath="$PROJECT_DIR$/dist/contact.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/contact.js.map" afterPath="$PROJECT_DIR$/dist/contact.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/dist/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/index.js.map" afterPath="$PROJECT_DIR$/dist/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -205,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23529412">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state vertical-scroll-proportion="-12.222222">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11764706">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -256,7 +164,6 @@
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/webpack/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/__config/paths.js" />
         <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/watch/index.js" />
         <option value="$PROJECT_DIR$/__src/components/footer/newfooter.html" />
@@ -282,6 +189,7 @@
         <option value="$PROJECT_DIR$/build/gulp/tasks/check-paths/index.js" />
         <option value="$PROJECT_DIR$/build/gulp/tasks/move/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -584,7 +492,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1404" height="877" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2559653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -593,7 +501,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24970461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28025478" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28025478" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -782,14 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1012,8 +912,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23529412">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state vertical-scroll-proportion="-12.222222">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11764706">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
