@@ -2,3 +2,6 @@ _site
 __dist
 .sass-cache
 .jekyll-metadata
+.idea/
+node_modules/
+typings/

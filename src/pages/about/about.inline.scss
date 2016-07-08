@@ -1,0 +1,7 @@
+body {
+    background: orange;
+}
+
+body::before {
+    content: 'ABOUT';
+}

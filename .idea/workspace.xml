@@ -2,17 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18449ec3-4a88-4d83-a349-4487c7d2f821" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index2.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/gulp/tasks/move/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/gulp/tasks/watch/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/about.inline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/about.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/index.inline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jekyll/_includes/css/about.inline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jekyll/_includes/css/index.inline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jekyll/js/about.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/footer/newfooter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/globals/node/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/globals/node/typings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/index.d.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/tasks/move/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/tasks/watch/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__build/scripts/copy-files.bash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__dist/about.inline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__dist/about.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__dist/index.inline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/css/about.inline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/css/index.inline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/about.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TODOs.txt" afterPath="$PROJECT_DIR$/build/gulp/tasks/check-paths/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/index.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/libs/env.js" afterPath="$PROJECT_DIR$/build/gulp/libs/env.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/libs/taskHelper.js" afterPath="$PROJECT_DIR$/build/gulp/libs/taskHelper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/loggers/buildData.js" afterPath="$PROJECT_DIR$/build/gulp/loggers/buildData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/loggers/webpack.js" afterPath="$PROJECT_DIR$/build/gulp/loggers/webpack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__build/gulpfile.js/tasks/webpack/index.js" afterPath="$PROJECT_DIR$/build/gulp/tasks/webpack/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__config/paths.js" afterPath="$PROJECT_DIR$/config/paths.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__config/webpack.dev.js" afterPath="$PROJECT_DIR$/config/webpack.dev.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/about.html" afterPath="$PROJECT_DIR$/jekyll/_pages/about.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/about.inline.css.map" afterPath="$PROJECT_DIR$/jekyll/_includes/css/about.inline.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/about.js" afterPath="$PROJECT_DIR$/jekyll/js/about.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.html" afterPath="$PROJECT_DIR$/jekyll/_pages/contact.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.inline.css" afterPath="$PROJECT_DIR$/jekyll/_includes/css/contact.inline.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.inline.css.map" afterPath="$PROJECT_DIR$/jekyll/_includes/css/contact.inline.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.js" afterPath="$PROJECT_DIR$/jekyll/js/contact.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/contact.js.map" afterPath="$PROJECT_DIR$/jekyll/js/contact.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.html" afterPath="$PROJECT_DIR$/jekyll/_pages/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.inline.css.map" afterPath="$PROJECT_DIR$/jekyll/_includes/css/index.inline.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.js" afterPath="$PROJECT_DIR$/jekyll/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/index.js.map" afterPath="$PROJECT_DIR$/jekyll/js/index.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/styles.css" afterPath="$PROJECT_DIR$/jekyll/css/styles.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__dist/styles.css.map" afterPath="$PROJECT_DIR$/jekyll/css/styles.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/components/index.ts" afterPath="$PROJECT_DIR$/src/components/index.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/components/main.scss" afterPath="$PROJECT_DIR$/src/components/main.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/about/about.ejs" afterPath="$PROJECT_DIR$/src/pages/about/about.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/about/about.inline.scss" afterPath="$PROJECT_DIR$/src/pages/about/about.inline.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/about/about.ts" afterPath="$PROJECT_DIR$/src/pages/about/about.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/common/utils.ejs" afterPath="$PROJECT_DIR$/src/pages/common/utils.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/contact/contact.ejs" afterPath="$PROJECT_DIR$/src/pages/contact/contact.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/contact/contact.inline.scss" afterPath="$PROJECT_DIR$/src/pages/contact/contact.inline.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/contact/contact.ts" afterPath="$PROJECT_DIR$/src/pages/contact/contact.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/index/index.ejs" afterPath="$PROJECT_DIR$/src/pages/index/index.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/index/index.inline.scss" afterPath="$PROJECT_DIR$/src/pages/index/index.inline.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__src/pages/index/index.ts" afterPath="$PROJECT_DIR$/src/pages/index/index.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/jekyll/_config.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/about.inline.css.map" afterPath="$PROJECT_DIR$/dist/about.inline.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/contact.inline.css" afterPath="$PROJECT_DIR$/dist/contact.inline.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/contact.inline.css.map" afterPath="$PROJECT_DIR$/dist/contact.inline.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/css/index.inline.css.map" afterPath="$PROJECT_DIR$/dist/index.inline.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/jekyll/_includes/footer.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/jekyll/_includes/head.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/jekyll/_includes/header.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-github.html" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-github.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-github.svg" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-github.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.html" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-twitter.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/icon-twitter.svg" afterPath="$PROJECT_DIR$/jekyll/_includes/icon-twitter.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_includes/test.css" afterPath="$PROJECT_DIR$/jekyll/_includes/test.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/jekyll/_layouts/default.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/jekyll/_layouts/page.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/jekyll/_layouts/post.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_pages/about.html" afterPath="$PROJECT_DIR$/dist/about.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_pages/contact.html" afterPath="$PROJECT_DIR$/dist/contact.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_pages/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-06-26-welcome-to-jekyll.markdown" afterPath="$PROJECT_DIR$/jekyll/_posts/2016-06-26-welcome-to-jekyll.markdown" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="$PROJECT_DIR$/jekyll/_sass/_base.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/jekyll/_sass/_layout.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" afterPath="$PROJECT_DIR$/jekyll/_sass/_syntax-highlighting.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/jekyll/about.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/jekyll/css/main.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/dist/styles.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/dist/styles.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/test.css" afterPath="$PROJECT_DIR$/jekyll/css/test.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/jekyll/feed.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/about.js" afterPath="$PROJECT_DIR$/dist/about.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/contact.js" afterPath="$PROJECT_DIR$/dist/contact.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/contact.js.map" afterPath="$PROJECT_DIR$/dist/contact.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/dist/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/index.js.map" afterPath="$PROJECT_DIR$/dist/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/.eslintrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODOs.txt" afterPath="$PROJECT_DIR$/TODOs.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__dist/about.js.map" afterPath="$PROJECT_DIR$/__dist/about.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__dist/contact.js.map" afterPath="$PROJECT_DIR$/__dist/contact.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__dist/index.js.map" afterPath="$PROJECT_DIR$/__dist/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/about.js.map" afterPath="$PROJECT_DIR$/js/about.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/contact.js.map" afterPath="$PROJECT_DIR$/js/contact.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js.map" afterPath="$PROJECT_DIR$/js/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,28 +125,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/index.js">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="6.111111">
+              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack.prod.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TODOs.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODOs.txt">
+      <file leaf-file-name="webpack.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -63,21 +155,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="paths.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/paths.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.754717">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.dev.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__config/webpack.dev.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/gulp/tasks/webpack/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.7777777">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/gulp/tasks/check-paths/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.11111">
+              <caret line="83" column="90" selection-start-line="83" selection-start-column="90" selection-end-line="83" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/gulp/tasks/watch/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="46" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="46" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/gulp/tasks/move/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23529412">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -99,31 +231,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/__entry/about.ts" />
-        <option value="$PROJECT_DIR$/__entry/contact.ts" />
-        <option value="$PROJECT_DIR$/__src/pages/index/index.inline.scss" />
-        <option value="$PROJECT_DIR$/__src/pages/contact/contact.inline.scss" />
-        <option value="$PROJECT_DIR$/__src/pages/about/about.inline.scss" />
-        <option value="$PROJECT_DIR$/__src/components/main.scss" />
-        <option value="$PROJECT_DIR$/dist/about.inline.css" />
-        <option value="$PROJECT_DIR$/dist/about.js" />
-        <option value="$PROJECT_DIR$/dist/contact.inline.css" />
-        <option value="$PROJECT_DIR$/dist/contact.js" />
-        <option value="$PROJECT_DIR$/dist/index.inline.css" />
-        <option value="$PROJECT_DIR$/__src/pages/index/index.ts" />
-        <option value="$PROJECT_DIR$/_includes/test.css" />
-        <option value="$PROJECT_DIR$/__src/components/index.ts" />
-        <option value="$PROJECT_DIR$/__src/pages/about/about.html" />
-        <option value="$PROJECT_DIR$/__src/pages/contact/contact.html" />
-        <option value="$PROJECT_DIR$/__src/pages/index/index.html" />
-        <option value="$PROJECT_DIR$/.eslintrc" />
-        <option value="$PROJECT_DIR$/__src/pages/common/utils.js" />
-        <option value="$PROJECT_DIR$/__src/pages/common/utils.ejs" />
-        <option value="$PROJECT_DIR$/__src/pages/contact/utils.ejs" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/__src/pages/about/about.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/__build/scripts/copy-files.bash" />
         <option value="$PROJECT_DIR$/__src/pages/contact/contact.ts" />
         <option value="$PROJECT_DIR$/_posts/2016-06-26-welcome-to-jekyll.markdown" />
@@ -132,23 +240,47 @@
         <option value="$PROJECT_DIR$/_site/dist/about.html" />
         <option value="$PROJECT_DIR$/_site/dist/contact.html" />
         <option value="$PROJECT_DIR$/_site/dist/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/webpack/webpack.config.js" />
         <option value="$PROJECT_DIR$/dist/contact.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/dist/about.html" />
         <option value="$PROJECT_DIR$/__build/gulpfile.js/paths.js" />
-        <option value="$PROJECT_DIR$/__config/paths.js" />
-        <option value="$PROJECT_DIR$/__build/gulpfile.js/index.js" />
-        <option value="$PROJECT_DIR$/__config/webpack.dev.js" />
-        <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/webpack/index.js" />
         <option value="$PROJECT_DIR$/__src/pages/about/about.ejs" />
         <option value="$PROJECT_DIR$/__src/pages/contact/contact.ejs" />
         <option value="$PROJECT_DIR$/__src/pages/index/index.ejs" />
-        <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/move/index.js" />
         <option value="$PROJECT_DIR$/_pages/about.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/TODOs.txt" />
+        <option value="$PROJECT_DIR$/__config/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/__src/pages/index/index.inline.scss" />
+        <option value="$PROJECT_DIR$/typings.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/webpack/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/__config/paths.js" />
+        <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/watch/index.js" />
+        <option value="$PROJECT_DIR$/__src/components/footer/newfooter.html" />
+        <option value="$PROJECT_DIR$/__build/gulpfile.js/tasks/move/index.js" />
+        <option value="$PROJECT_DIR$/__build/gulpfile.js/index.js" />
+        <option value="$PROJECT_DIR$/__src/pages/about/about.inline.scss" />
+        <option value="$PROJECT_DIR$/_includes/css/about.inline.css" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/libs/env.js" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/libs/taskHelper.js" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/loggers/buildData.js" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/loggers/webpack.js" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/tasks/move/index.js" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/tasks/watch/index.js" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/index.js" />
+        <option value="$PROJECT_DIR$/build/gulpfile.js/tasks/webpack/index.js" />
+        <option value="$PROJECT_DIR$/config/webpack.prod.js" />
+        <option value="$PROJECT_DIR$/config/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/build/gulp/tasks/webpack/index.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/config/paths.js" />
+        <option value="$PROJECT_DIR$/build/gulp/tasks/check-paths/index.js" />
+        <option value="$PROJECT_DIR$/build/gulp/tasks/move/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -304,6 +436,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leonardo-Static-Site-Blog-Generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leonardo-Static-Site-Blog-Generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leonardo-Static-Site-Blog-Generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -311,52 +463,14 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leonardo-Static-Site-Blog-Generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gulp-Webpack-Frontend-Backend-Setup-for-Node-ES2015-SCSS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leonardo-Static-Site-Blog-Generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="__config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -370,19 +484,19 @@
     <property name="javascript.nodejs.core.library.configured.version" value="4.1.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/__build/gulpfile.js/tasks" />
-      <recent name="$PROJECT_DIR$/__src/pages/common" />
-      <recent name="$PROJECT_DIR$/__src/pages/contact" />
-      <recent name="$PROJECT_DIR$/__src/components" />
-      <recent name="$PROJECT_DIR$/__src/pages/home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/__build/gulpfile.js/tasks/move" />
       <recent name="$PROJECT_DIR$/__build/gulpfile.js/tasks/watch" />
       <recent name="$PROJECT_DIR$/_includes/css" />
-      <recent name="$PROJECT_DIR$/__build" />
-      <recent name="$PROJECT_DIR$/__src/pages/index" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/jekyll" />
+      <recent name="$PROJECT_DIR$/__build/gulpfile.js/tasks" />
+      <recent name="$PROJECT_DIR$/__src/pages/common" />
+      <recent name="$PROJECT_DIR$/__src/pages/contact" />
     </key>
   </component>
   <component name="RunManager">
@@ -459,17 +573,27 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1404" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20173536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2559653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24970461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32401526" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28025478" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -478,7 +602,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -500,339 +623,130 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/__src/pages/about/about.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/index/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/tasks/move/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="67" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/about.html">
+    <entry file="file://$PROJECT_DIR$/src/pages/contact/contact.inline.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="145" selection-start-line="10" selection-start-column="145" selection-end-line="10" selection-end-column="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/loggers/buildData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/libs/taskHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/libs/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/about/about.inline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4705882">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/components/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02347418">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/components/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5882353">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_syntax-highlighting.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.411765">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.317757">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/about/about.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-26-welcome-to-jekyll.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2760736">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.254902">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/scripts/copy-files.bash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/tasks/watch/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/tasks/webpack/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.111111">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/contact/contact.inline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/common/utils.ejs">
+    <entry file="file://$PROJECT_DIR$/src/pages/common/utils.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/contact/contact.ts">
+    <entry file="file://$PROJECT_DIR$/src/pages/contact/contact.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12578617">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/contact/contact.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/index/index.ejs">
+    <entry file="file://$PROJECT_DIR$/src/pages/index/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/tasks/move/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="67" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/index.html">
+    <entry file="file://$PROJECT_DIR$/jekyll/_pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/contact.html">
+    <entry file="file://$PROJECT_DIR$/src/pages/index/index.inline.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/contact/contact.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.8333333">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5555556">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/about.html">
+    <entry file="file://$PROJECT_DIR$/src/components/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.5882353">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__src/pages/about/about.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.09375">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__build/gulpfile.js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/footer/newfooter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/icon-github.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27726433">
+          <caret line="10" column="145" selection-start-line="10" selection-start-column="145" selection-end-line="10" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29574862">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about/about.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODOs.txt">
+    <entry file="file://$PROJECT_DIR$/src/pages/about/about.inline.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0588236">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -840,18 +754,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__config/webpack.dev.js">
+    <entry file="file://$PROJECT_DIR$/jekyll/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="46" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="46" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_pages/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_posts/2016-06-26-welcome-to-jekyll.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/about.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typedoc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_sass/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_sass/_syntax-highlighting.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="38" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/libs/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/libs/taskHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/loggers/buildData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/loggers/webpack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jekyll/_includes/css/about.inline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/tasks/webpack/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/tasks/watch/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="78" selection-start-line="66" selection-start-column="78" selection-end-line="66" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/tasks/check-paths/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.11111">
+          <caret line="83" column="90" selection-start-line="83" selection-start-column="90" selection-end-line="83" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.111111">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulp/tasks/move/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.754717">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.23529412">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding />
         </state>
       </provider>

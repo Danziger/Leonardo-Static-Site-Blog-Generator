@@ -1,4 +1,4 @@
-// Look in ./_config folder for webpack config depending on environment:
+const PATHS = require('./config/paths');
 
 switch (process.env.NODE_ENV) {
 
@@ -6,14 +6,14 @@ switch (process.env.NODE_ENV) {
 
 	case 'prod':
 	case 'production':
-		module.exports = require('./__config/webpack.prod');
+		module.exports = require(PATHS.WEBPACK_CONFIG_PROD);
 		break;
 
 	// TEST CONFIG:
 
 	case 'test':
 	case 'testing':
-		module.exports = require('./__config/webpack.test');
+		module.exports = require(PATHS.WEBPACK_CONFIG_TEST);
 		break;
 
 	// DEV. CONFIG:
@@ -21,6 +21,5 @@ switch (process.env.NODE_ENV) {
 	case 'dev':
 	case 'development':
 	default:
-		module.exports = require('./__config/webpack.dev');
-
+		module.exports = require(PATHS.WEBPACK_CONFIG_DEV);
 }
