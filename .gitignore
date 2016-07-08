@@ -1,7 +1,9 @@
-_site
-__dist
 .sass-cache
 .jekyll-metadata
-.idea/
-node_modules/
-typings/
+.idea
+
+node_modules
+typings
+
+dist
+jekyll/_site
