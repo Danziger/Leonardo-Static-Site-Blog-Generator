@@ -1,3 +1,5 @@
-body {
-    border: 10px solid black;
-}
+@charset "utf-8";
+
+@import "./common/config.scss",
+"./posts/posts.scss",
+"./footer/footer.scss";

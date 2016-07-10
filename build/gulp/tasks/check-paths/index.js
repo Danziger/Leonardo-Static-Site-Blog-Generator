@@ -1,17 +1,18 @@
 'use strict';
 
 const gulp = require('gulp');
-const fs = require('fs');
+const fs   = require('fs');
+const path = require('path');
 
 const PATHS = require('../../../../config/paths');
 
-gulp.task('check-paths', 'Check that all the paths in config/paths.js right.', done => {
-	let totalPaths = 0;
-	let totalPathsUnique = 0;
-	let totalPathsRepeated = 0;
+gulp.task('check:paths', 'Validates paths in paths.js.', done => {
+	let totalPaths             = 0;
+	let totalPathsUnique       = 0;
+	let totalPathsRepeated     = 0;
 	let totalPathsWithWildcard = 0;
-	let totalPathsOk = 0;
-	let totalPathsWrong = 0;
+	let totalPathsOk           = 0;
+	let totalPathsWrong        = 0;
 
 	const paths = new Set();
 
@@ -73,7 +74,7 @@ gulp.task('check-paths', 'Check that all the paths in config/paths.js right.', d
 
 			if (totalPathsUnique === totalPathsWrong + totalPathsOk) { // TODO: Extract to a stats function
 				const uniquePathsCheck = totalPathsUnique === (totalPaths - totalPathsRepeated);
-				const okPathsCheck = totalPathsUnique === totalPathsOk;
+				const okPathsCheck     = totalPathsUnique === totalPathsOk;
 
 				console.log('\n');
 				console.log('               TOTAL PATHS: ' + totalPaths);
@@ -89,4 +90,15 @@ gulp.task('check-paths', 'Check that all the paths in config/paths.js right.', d
 			}
 		});
 	}
+});
+
+
+gulp.task('check:entry', 'Checks webpack entry points.', err => {
+
+	require('fs').readdirSync(PATHS.PAGES).forEach(page => {
+		// TODO: Check that it's the same than inside the config...
+
+		console.log('⚡ ' + path.join(PATHS.PAGES, page, page + '.ts'));
+	});
+
 });

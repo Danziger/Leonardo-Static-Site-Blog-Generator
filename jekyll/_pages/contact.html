@@ -12,7 +12,7 @@ permalink: "/contact/"
     <meta charset="UTF-8">
     <base href="/">
 
-    <title>Generated Contact Page</title>
+    <title>{{ site.title }}</title>
 
     
 
@@ -24,7 +24,11 @@ permalink: "/contact/"
 </head>
 
 <body>
-    <h1>CONTACT</h1>
+    {% include components/header.html title=site.title %}
+
+    <h2>CONTACT</h2>
+
+    {% include components/footer.html %}
 
     
 

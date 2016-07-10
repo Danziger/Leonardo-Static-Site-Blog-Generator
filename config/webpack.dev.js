@@ -1,6 +1,7 @@
 'use strict';
 
 const webpack = require('webpack');
+const path    = require('path');
 
 const PATHS = require('./paths');
 
@@ -11,16 +12,12 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 // Extracts target requires' content to separated files.
 // See: https://github.com/webpack/extract-text-webpack-plugin
 
-const ExtractCSS = new ExtractTextPlugin('styles.css');
+const ExtractCSS       = new ExtractTextPlugin('styles.css');
 const ExtractInlineCSS = new ExtractTextPlugin('[name].inline.css');
 
 // const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 // Do type checking in a separate process, so webpack don't need to wait.
 // See: https://github.com/s-panferov/awesome-typescript-loader#forkchecker-boolean-defaultfalse
-
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-// Simplifies creation of HTML files to serve your webpack bundles.
-// See: https://github.com/ampedandwired/html-webpack-plugin
 
 
 // WEBPACK CONSTANTS:
@@ -40,8 +37,7 @@ const METADATA = {
 // myDevConfig.debug = true;
 
 
-
-module.exports = {
+const WEBPACK_CONFIG_DEV = {
 	// target: 'node',
 	target: 'web',
 	// Default
@@ -69,7 +65,7 @@ module.exports = {
 		// Remove other default values.
 	},
 
-	entry: PATHS.WEBPACK_ENTRY,
+	// entry: PATHS.WEBPACK_ENTRY,
 
 	output: {
 		path: PATHS.DIST,
@@ -105,8 +101,8 @@ module.exports = {
 			loader: 'raw-loader',
 		}, {
 			// Extracts require('file.scss') into separated files.
-			// - sass-loader: Compiles SASS code. // TODO: Vertical rythem + base/theme/colors files
-			// - autoprefixer-loader: Autoprefixes generated CSS code. // TODO: Configure
+			// - sass-loader: Compiles SASS code.
+			// - autoprefixer-loader: Autoprefixes generated CSS code. // TODO: Update: https://github.com/postcss/postcss-loader
 			// - css-loader: Resolves CSS imports and much more...
 			// - style-loader: Loader to be used when CSS is not extracted.
 
@@ -129,38 +125,6 @@ module.exports = {
 		// new ForkCheckerPlugin(),
 
 		/*
-		 * Plugin: HtmlWebpackPlugin
-		 * Description: Simplifies creation of HTML files to serve your webpack bundles.
-		 * This is especially useful for webpack bundles that include a hash in the filename
-		 * which changes every compilation.
-		 *
-		 * See: https://github.com/ampedandwired/html-webpack-plugin
-		 */
-
-		// TODO: Create a helper / merge function to generate these objects with a base config...
-		new HtmlWebpackPlugin({
-			filename: 'about.html',
-			template: '__src/pages/about/about.ejs',
-			title: 'Generated About Page',
-			chunks: ['about'],
-			inject: false,
-		}),
-		new HtmlWebpackPlugin({
-			filename: 'contact.html',
-			template: '__src/pages/contact/contact.ejs',
-			title: 'Generated Contact Page',
-			chunks: ['contact'],
-			inject: false,
-		}),
-		new HtmlWebpackPlugin({
-			filename: 'index.html',
-			template: '__src/pages/index/index.ejs',
-			title: 'Generated Index Page',
-			chunks: ['index'],
-			inject: false,
-		}),
-
-		/*
 		 * Plugin: OccurenceOrderPlugin
 		 * Description: Varies the distribution of the ids to get the smallest id length
 		 * for often used ids.
@@ -170,7 +134,7 @@ module.exports = {
 		 */
 		new webpack.optimize.OccurenceOrderPlugin(true),
 
-		/*
+		/* TODO: Add this
 		 * Plugin: CommonsChunkPlugin
 		 * Description: Shares common code between the pages.
 		 * It identifies common modules and put them into a commons chunk.
@@ -179,7 +143,23 @@ module.exports = {
 		 * See: https://github.com/webpack/docs/wiki/optimization#multi-page-app
 		 */
 		/*new webpack.optimize.CommonsChunkPlugin({
-			name: ['polyfills', 'vendor'].reverse()
-		}),*/
+		 name: ['polyfills', 'vendor'].reverse()
+		 }),*/
 	],
 };
+
+// Search for all pages in src/pages/* to use them as entry points.
+
+// TODO: Add exclude array (?)
+
+const entry = {};
+
+require('fs').readdirSync(PATHS.PAGES).forEach(page => {
+	entry[page] = path.join(PATHS.PAGES, page, page + '.ts');
+});
+
+WEBPACK_CONFIG_DEV.entry = entry;
+
+// Export the config:
+
+module.exports = WEBPACK_CONFIG_DEV;

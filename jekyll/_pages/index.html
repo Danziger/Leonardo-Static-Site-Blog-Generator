@@ -12,7 +12,7 @@ permalink: "/"
     <meta charset="UTF-8">
     <base href="/">
 
-    <title>Generated Index Page</title>
+    <title>{{ site.title }}</title>
 
     
 
@@ -24,7 +24,17 @@ permalink: "/"
 </head>
 
 <body>
-    <h1>INDEX</h1>
+    {% include components/header.html title=site.title %}
+
+    <h2>POPULAR</h2>
+
+    <!-- TODO: Include components/popular -->
+
+    <h2>RECENT</h2>
+
+    {% include components/posts.html %}
+
+    {% include components/footer.html %}
 
     
 

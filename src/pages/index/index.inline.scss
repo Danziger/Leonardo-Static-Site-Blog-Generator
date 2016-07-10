@@ -1,7 +1,3 @@
-body {
-    background: pink;
-}
+@charset "utf-8";
 
-body::before {
-    content: 'INDEX';
-}
+@import "../../components/main.inline.scss";

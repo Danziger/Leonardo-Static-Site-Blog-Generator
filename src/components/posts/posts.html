@@ -1,0 +1,26 @@
+<section class="posts__base">
+    <ul class="posts__list">
+        {% for post in site.posts limit:10 %}
+        <li class="posts__item">
+            <h3 class="posts__title">
+                <a class="posts__link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+            </h3>
+
+            <div class="posts__extract">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+
+            <div class="posts__tags">
+
+                <ul class="tags__list">
+                    {% for tags in post.tags %}
+                    <li class="tags__item">{{ tags }}</li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+        </li>
+        {% endfor %}
+    </ul>
+</section>

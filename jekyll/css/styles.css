@@ -1,4 +1,17 @@
-body {
-  border: 10px solid black; }
+.posts__list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
 
-/*# sourceMappingURL=styles.css.map*/
+.posts__title {
+  padding: .5rem 0; }
+
+.tags__list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.footer__base {
+  border-top: 3px solid #000;
+  padding: .8125rem 0 1rem;
+  line-height: 1rem; }

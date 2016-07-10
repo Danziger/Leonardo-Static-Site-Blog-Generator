@@ -34,6 +34,18 @@ module.exports = {
 
 	// SOURCES BY TYPE:
 
+	get PAGES() {
+		return path.join(this.SRC, 'pages');
+	},
+
+	get PAGES_HTML() {
+		return path.join(this.SRC, 'pages', '**/*.html');
+	},
+
+	get COMPONENTS_HTML() {
+		return path.join(this.SRC, 'components', '**/*.html');
+	},
+
 	// SOURCES BY EXTENSION:
 
 	get SCSS_FILES() {
@@ -44,12 +56,24 @@ module.exports = {
 		return [path.join(this.SRC, '**/*.ts')];
 	},
 
-	get HTML_FILES() {
-		return [path.join(this.SRC, '**/*.html')];
+	// DIST:
+
+	get DIST_HTML() {
+		return [path.join(this.DIST, '*.html')];
 	},
 
-	get EJS_FILES() {
-		return [path.join(this.SRC, '**/*.ejs')];
+	get DIST_STYLES() {
+		return [path.join(this.DIST, 'styles.css'), path.join(this.DIST, 'styles.css.map')];
+	},
+
+	get DIST_INLINE_CSS() {
+		// TODO: Not working, fix this.
+
+		return [path.join(this.DIST, '*.inline.css'), path.join(this.DIST, '*.inline.css.map')];
+	},
+
+	get DIST_JS() {
+		return [path.join(this.DIST, '*.js'), path.join(this.DIST, '*.js.map')];
 	},
 
 	// GULP:

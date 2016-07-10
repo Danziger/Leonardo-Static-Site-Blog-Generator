@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.posts {
+    &__base {
+    }
+
+    &__list {
+        // TODO: This should be included...
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__item {
+    }
+
+    &__title {
+        padding: .5rem 0;
+    }
+
+    &__link {
+    }
+
+    &__tags {
+    }
+}
+
+.tags {
+    &__list {
+        // TODO: This should be included...
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}

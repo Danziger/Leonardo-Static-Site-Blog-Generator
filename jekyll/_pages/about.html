@@ -12,7 +12,7 @@ permalink: "/about/"
     <meta charset="UTF-8">
     <base href="/">
 
-    <title>Generated About Page</title>
+    <title>{{ site.title }}</title>
 
     
 
@@ -24,7 +24,11 @@ permalink: "/about/"
 </head>
 
 <body>
-    <h1>ABOUT</h1>
+    {% include components/header.html title=site.title %}
+
+    <h2>ABOUT</h2>
+
+    {% include components/footer.html %}
 
     
 

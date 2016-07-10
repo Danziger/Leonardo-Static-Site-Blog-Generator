@@ -1,0 +1,32 @@
+---
+permalink: "/"
+---
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+
+    <title>{{ site.title }}</title>
+
+    <style>{% include css/index.inline.css %}</style>
+</head>
+
+<body>
+    {% include components/header.html title=site.title %}
+
+    <h2>POPULAR</h2>
+
+    <!-- TODO: Include components/popular -->
+
+    <h2>RECENT</h2>
+
+    {% include components/posts.html %}
+
+    {% include components/footer.html %}
+</body>
+
+</html>
