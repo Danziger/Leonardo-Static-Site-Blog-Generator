@@ -13,6 +13,7 @@ And this other website: https://www.staticgen.com/
 * Improve project description and put a few lines on how it works, advantages over using just Jekyll...
 * Create real differentiated webpack configs per environment.
 * Check if nested pages generation works fine.
+* Update autoprefixer: https://github.com/postcss/postcss-loader
 
 ## TODO - Features!
 * Examples, tutorials...
