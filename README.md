@@ -8,12 +8,14 @@ For now you may be more interested in this other repository: https://github.com/
 
 And this other website: https://www.staticgen.com/
 
-## TODO - Blockers, really annoying stuff that must be fixed soon... :(
+## Currently in Development:
 * Fix webpack awesome-typescript-loader not ignoring node_modules.
-* Improve project description and put a few lines on how it works, advantages over using just Jekyll...
 * Create real differentiated webpack configs per environment.
+* Update autoprefixer and change SASS for postCSS: https://github.com/postcss/postcss-loader
+
+## TODO - Blockers, really annoying stuff that must be fixed soon... :(
+* Improve project description and put a few lines on how it works, advantages over using just Jekyll...
 * Check if nested pages generation works fine.
-* Update autoprefixer: https://github.com/postcss/postcss-loader
 
 ## TODO - Features!
 * Examples, tutorials...

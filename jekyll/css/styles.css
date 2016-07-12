@@ -3,8 +3,30 @@
   padding: 0;
   margin: 0; }
 
+.posts__item {
+  margin: 1rem 0 2rem; }
+
 .posts__title {
-  padding: .5rem 0; }
+  position: relative;
+  padding: .5rem 0 .5rem; }
+  .posts__title:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 3px solid #000;
+    width: 142px;
+    content: ""; }
+
+.posts__continue {
+  border: 3px solid #000;
+  font-size: .75rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  padding: .3125rem .5rem;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 1rem 0 0;
+  text-transform: uppercase; }
 
 .tags__list {
   list-style: none;

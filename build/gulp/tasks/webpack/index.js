@@ -48,11 +48,8 @@ gulp.task('webpack:build:prod', 'Production build.', done => {
 	webpack(require(PATHS.WEBPACK_CONFIG_PROD), (err, stats) => {
 		if (err) throw new gutil.PluginError('webpack:build', err);
 
-		// TODO: Check these options, loggers...
-
-		gutil.log('[webpack:build]', stats.toString({
-			colors: true,
-		}));
+		// TODO: Make this optional (verbose)
+		// gutil.log(stats.toString({ colors: true }));
 
 		console.log('Webpack (prod.) compilation finished.');
 
@@ -69,9 +66,8 @@ gulp.task('webpack:build:dev', 'Development build.', done => {
 	devWebpackCompiler.run((err, stats) => {
 		if (err) throw new gutil.PluginError('webpack:build-dev', err);
 
-		gutil.log('[webpack:build-dev]', stats.toString({
-			colors: true,
-		}));
+		// TODO: Make this optional (verbose)
+		// gutil.log(stats.toString({ colors: true }));
 
 		console.log('Webpack (dev.) compilation finished.');
 
