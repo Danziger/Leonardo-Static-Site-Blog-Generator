@@ -9,18 +9,23 @@ For now you may be more interested in this other repository: https://github.com/
 And this other website: https://www.staticgen.com/
 
 ## Currently in Development:
-* Fix webpack awesome-typescript-loader not ignoring node_modules.
-* Create real differentiated webpack configs per environment.
-* Update autoprefixer and change SASS for postCSS: https://github.com/postcss/postcss-loader
+* Improve the example site and document how to create modify it to create your own, how is the project structured, how
+  everything works together...
+* Add an example on how to use add images in our site.
+* Create clean tasks to avoid confusions getting previous work that is not supposed to be there anymore.
 
-## TODO - Blockers, really annoying stuff that must be fixed soon... :(
-* Improve project description and put a few lines on how it works, advantages over using just Jekyll...
+## TODOs:
+
+### Needs fixing (bugs):
+* Fix tslint / tslint-loader not working when building with webpack. It does work from the command line.
+
+### Needs finishing (incomplete work):
 * Check if nested pages generation works fine.
-
-## TODO - Features!
-* Examples, tutorials...
+* Create real differentiated webpack configs per environment.
 * Add colors, format and nice log messages to gulp tasks, specially to the check:* ones.
-* Add images per post.
+
+### New features:
+* Update autoprefixer and change SASS for postCSS: https://github.com/postcss/postcss-loader
 * Check best way to build multilanguage sites. Maybe gulp can make sure we create the same content in different jekyll
   folders and we don't hardcode values... (?)
 * Build index pages and pagination for arbitrary data and fields.
@@ -32,7 +37,7 @@ And this other website: https://www.staticgen.com/
 * Add a logo for the project/example blog.
 * Add a component loader to initialize all the components on page load.
 
-## TODO - Nice to have, improvements (:
+### Improvements:
 * Check if gulp-watch can be better fit than gulp.watch to move only files that changed.
 * Integrate typedoc.
 * Improve example site with more pages, common features and some variety of content (such as images).
@@ -40,5 +45,5 @@ And this other website: https://www.staticgen.com/
 * Use AMP in the example page!
 * Remove remaining original unused files from Jekyll.
 
-## TODO - One last thing...
+### One last thing:
 * Get rid of Jekyll once gulp is doing all the work (e. g. https://github.com/ducksoupdev/gulp-site-generator).

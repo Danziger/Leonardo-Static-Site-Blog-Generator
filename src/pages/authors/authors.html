@@ -13,6 +13,8 @@ permalink: "/authors/"
     <title>{{ site.title }}</title>
 
     <style>{% include css/authors.inline.css %}</style>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
@@ -39,24 +41,29 @@ permalink: "/authors/"
 
         {% for tag in site.tags %}
             {% assign t = tag | first %}
-            {% assign posts = tag | last %}
 
-            {{ t | downcase }}
+            {% if t contains 'author' %}
+                {% assign posts = tag | last %}
 
-            <ul>
-                {% for post in posts %}
-                    {% if post.tags contains t %}
-                        <li>
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                            <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+                By {{ t | downcase | replace:"author:","" }}
+
+                <ul>
+                    {% for post in posts %}
+                        {% if post.tags contains t %}
+                            <li>
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endif %}
         {% endfor %}
     </section>
 
     {% include components/footer.html %}
+
+    <script type="text/javascript" src="js/authors.js"></script>
 </body>
 
 </html>

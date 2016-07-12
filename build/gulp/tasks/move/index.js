@@ -7,12 +7,10 @@ const rename    = require('gulp-rename');
 const PATHS     = require('../../../../config/paths');
 
 gulp.task('move:pages', 'Moves generated pages to jekyll/_pages.', () => {
-	// TODO: Move directly from src/pages...
-
 	// the base option sets the relative root for the set of files,
 	// preserving the folder structure
 
-	gulp.src(PATHS.DIST_HTML)
+	gulp.src(PATHS.PAGES_HTML)
 		// .pipe(debug({ title: 'Moving'}))
 		.pipe(gulp.dest('./jekyll/_pages'));
 });

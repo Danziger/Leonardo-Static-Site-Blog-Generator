@@ -67,7 +67,7 @@ gulp.task('webpack:build:dev', 'Development build.', done => {
 		if (err) throw new gutil.PluginError('webpack:build-dev', err);
 
 		// TODO: Make this optional (verbose)
-		// gutil.log(stats.toString({ colors: true }));
+		gutil.log(stats.toString({ colors: true }));
 
 		console.log('Webpack (dev.) compilation finished.');
 

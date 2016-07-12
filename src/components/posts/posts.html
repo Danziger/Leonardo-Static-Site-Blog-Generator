@@ -6,21 +6,25 @@
                 <a class="posts__link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
             </h3>
 
+            <div class="posts__date">Updated {{ post.date | date: "%Y.%m.%d %H:%m" }} · Created {{ post.date | date: "%Y.%m.%d %H:%m" }} by {{ post.author }}</div>
+
             <div class="posts__extract">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
 
-            <a class="posts__continue" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue reading...</a>
-
             <div class="posts__tags">
 
                 <ul class="tags__list">
-                    {% for tags in post.tags %}
-                    <li class="tags__item">{{ tags }}</li>
+                    {% for tag in post.tags %}
+                        {% unless tag contains 'author' %}
+                        <li class="tags__item">{{ tag }}</li>
+                        {% endunless %}
                     {% endfor %}
                 </ul>
 
             </div>
+
+            <a class="posts__continue" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Continue reading...</a>
 
         </li>
         {% endfor %}

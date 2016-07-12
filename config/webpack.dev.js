@@ -15,7 +15,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ExtractCSS       = new ExtractTextPlugin('styles.css');
 const ExtractInlineCSS = new ExtractTextPlugin('[name].inline.css');
 
-// const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
+const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 // Do type checking in a separate process, so webpack don't need to wait.
 // See: https://github.com/s-panferov/awesome-typescript-loader#forkchecker-boolean-defaultfalse
 
@@ -64,8 +64,6 @@ const WEBPACK_CONFIG_DEV = {
 		modulesDirectories: ['node_modules'],
 		// Remove other default values.
 	},
-
-	// entry: PATHS.WEBPACK_ENTRY,
 
 	output: {
 		path: PATHS.DIST,
@@ -122,7 +120,7 @@ const WEBPACK_CONFIG_DEV = {
 		ExtractCSS,
 		ExtractInlineCSS,
 
-		// new ForkCheckerPlugin(),
+		new ForkCheckerPlugin(),
 
 		/*
 		 * Plugin: OccurenceOrderPlugin
@@ -146,6 +144,13 @@ const WEBPACK_CONFIG_DEV = {
 		 name: ['polyfills', 'vendor'].reverse()
 		 }),*/
 	],
+
+	tslint: {
+		emitErrors: true,
+		failOnHint: true,
+		resourcePath: PATHS.ROOT,
+	},
+
 };
 
 // Search for all pages in src/pages/* to use them as entry points.

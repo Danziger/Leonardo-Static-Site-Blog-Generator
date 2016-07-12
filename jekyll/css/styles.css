@@ -6,6 +6,11 @@
 .posts__item {
   margin: 1rem 0 2rem; }
 
+.posts__date {
+  font-size: .75rem;
+  margin: 0 0 .25rem;
+  text-transform: uppercase; }
+
 .posts__title {
   position: relative;
   padding: .5rem 0 .5rem; }
@@ -28,10 +33,26 @@
   margin: 1rem 0 0;
   text-transform: uppercase; }
 
+.posts__tags {
+  overflow: hidden; }
+
 .tags__list {
   list-style: none;
   padding: 0;
   margin: 0; }
+
+.tags__item {
+  float: left;
+  border: 3px solid #AAA;
+  color: #AAA;
+  font-size: .75rem;
+  font-weight: bold;
+  line-height: 1rem;
+  padding: .3125rem .5rem;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 1rem .25rem 0 0;
+  text-transform: uppercase; }
 
 .footer__base {
   border-top: 3px solid #000;

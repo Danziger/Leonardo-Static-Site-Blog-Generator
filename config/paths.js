@@ -84,14 +84,6 @@ module.exports = {
 
 	// WEBPACK:
 
-	get WEBPACK_ENTRY() {
-		return {
-			index:      path.join(this.SRC, 'pages', 'index',      'index.ts'),
-			about:      path.join(this.SRC, 'pages', 'about',      'about.ts'),
-			contact:    path.join(this.SRC, 'pages', 'contact',    'contact.ts'),
-		};
-	},
-
 	get WEBPACK_CONFIG() {
 		return path.join(this.ROOT, 'webpack.config.js');
 	},
