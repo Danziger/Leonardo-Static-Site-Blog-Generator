@@ -1,6 +1,7 @@
 .sass-cache
 .jekyll-metadata
 .idea
+.gitconfig
 
 node_modules
 typings
