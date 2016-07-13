@@ -23,14 +23,16 @@ permalink: "/authors/"
     <section>
         <h2>AUTHORS</h2>
 
-        <ul class="tags">
+        <ul class="lauthors__base">
             {% for tag in site.tags %}
                 {% assign t = tag | first %}
 
                 {% if t contains 'author' %}
                     {% assign posts = tag | last %}
+                    {% assign authorkey = t | downcase | replace:"author:","" | replace:" ","-" %}
+                    {% assign author = site.data.authors[authorkey] %}
 
-                    <li>{{t | downcase | replace:"author:","" | replace:" ","-" }} has {{ posts | size }} posts</li>
+                    <li class="lauthors__item"><a class="lauthors__link" href=""><img class="lauthors__img" src="{{ author.img }}" />{{ author.name }}</a> × {{ posts.size }} {% if posts.size > 1 %}posts{% else %}post{% endif %}</li>
                 {% endif %}
             {% endfor %}
         </ul>

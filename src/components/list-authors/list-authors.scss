@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.lauthors {
+    &__base {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+
+        font-size: .75rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        position: relative;
+        margin: 1rem 0 0;
+        float: left;
+        width: 50%;
+    }
+
+    &__link {
+        padding: .5rem 0 .5rem 3rem;
+        display: inline-block;
+    }
+
+    &__img {
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 100%;
+    }
+}

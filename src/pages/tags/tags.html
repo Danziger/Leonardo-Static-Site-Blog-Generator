@@ -23,14 +23,14 @@ permalink: "/tags/"
     <section>
         <h2>TAGS</h2>
 
-        <ul class="tags">
+        <ul class="ltags__base">
             {% for tag in site.tags %}
                 {% assign t = tag | first %}
 
                 {% unless t contains 'author' %}
                     {% assign posts = tag | last %}
 
-                    <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
+                    <li class="ltags__item"><a class="ltags__link" href="">{{t | downcase | replace:" ","-" }}</a> × {{ posts.size }} {% if posts.size > 1 %}posts{% else %}post{% endif %}</li>
                 {% endunless %}
             {% endfor %}
         </ul>
