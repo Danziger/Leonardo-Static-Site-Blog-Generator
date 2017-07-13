@@ -1,0 +1,7 @@
+{! dust temaplte !}
+
+<ul>
+    <li>{name}</li>
+    <li>{surname}</li>
+</ul>
+

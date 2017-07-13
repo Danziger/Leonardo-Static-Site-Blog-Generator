@@ -69,6 +69,7 @@
     "eslint-config-airbnb-base": "^3.0.1",
     "eslint-plugin-import": "^1.9.2",
     "extract-text-webpack-plugin": "^1.0.1",
+    "glob": "^7.0.6",
     "gulp": "^3.9.1",
     "gulp-debug": "^2.1.2",
     "gulp-help": "^1.6.1",
@@ -82,7 +83,6 @@
     "sass-loader": "^3.2.1",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
-    "ts-loader": "^0.8.2",
     "tslint": "^3.13.0",
     "tslint-loader": "^2.1.5",
     "typedoc": "^0.4.3",
@@ -91,5 +91,8 @@
     "webpack": "^1.13.0",
     "yargs": "^4.7.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-dust-compile-render": "^0.2.9",
+    "gulp-ext-replace": "^0.3.0"
+  }
 }

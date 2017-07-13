@@ -23,6 +23,7 @@ And this other website: https://www.staticgen.com/
 * Check if nested pages generation works fine.
 * Create real differentiated webpack configs per environment.
 * Add colors, format and nice log messages to gulp tasks, specially to the check:* ones.
+* Update NPM scripts.
 
 ### New features:
 * Update autoprefixer and change SASS for postCSS: https://github.com/postcss/postcss-loader

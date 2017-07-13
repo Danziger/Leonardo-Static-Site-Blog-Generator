@@ -42,6 +42,10 @@ module.exports = {
 		return path.join(this.SRC, 'pages', '**/*.html');
 	},
 
+	get PAGES_HTML_TEST() { // TODO: TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEMP!
+		return path.join(this.SRC, 'pages', '**/*.dust');
+	},
+
 	get COMPONENTS_HTML() {
 		return path.join(this.SRC, 'components', '**/*.html');
 	},
